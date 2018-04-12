@@ -1,0 +1,59 @@
+.month {
+	align-self: center;
+	width: 1250px;
+	height: 60px;
+	border: 3px solid #81ecec;
+	font-size: 50px;
+	font-family: Helvetica;
+	font-weight: lighter;
+	text-align: center;
+	color: #2d3436;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding-bottom: 0px;
+
+
+}
+
+#monthBox {
+	background-color: #81ecec; 
+}
+
+.days {
+	display: inline;
+	font-family: Helvetica;
+	font-weight: lighter;
+	font-size: 20px;
+	align-self: center;
+	margin-right: 76px;
+	margin-left: 25px;
+	margin-top: 0px;
+
+
+
+}
+
+#days_of_week {
+	text-align: center;
+	background-color: #b2bec3;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 0px;
+	border: 1px solid black;
+}
+
+#days_table {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+
+
+
+
+/*.month {
+	font-size: 50px;
+	font-family: Helvetica;
+	font-weight: lighter;
+	text-align: center;
+}*/
