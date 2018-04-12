@@ -1,0 +1,25 @@
+#login {
+	font-size: 70px;
+	font-family: Helvetica; 
+	font-weight: lighter;
+	/*text-align: center;*/
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+
+.text {
+	font-family: Helvetica;
+	font-weight: lighter;
+	/*text-align: center;*/
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+
+.textBox {
+	font-size: 20px;
+
+}
+
+
+
