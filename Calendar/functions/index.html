@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Functions</title>
+
+</head>
+<body>
+	<!-- <script src="script.js" type = "text/javascript"></script> -->
+	<button id = "eventButton">Create Event</button>
+	<script type="text/javascript">
+		document.getElementById('eventButton').onclick = function () {
+			var create = prompt("Create Event");
+			if(create != null || create == "") {
+				document.write("Event: " + create)
+			}
+			var day = prompt("Day of event:")
+			if(day != null || day == ""){
+					document.write("<br>" + "Day of event: " + day)
+			}
+
+			var time = prompt("Time of event:")
+			if(time != null || time == ""){
+					document.write("<br>" + "Time of event: " + time)
+			}
+
+			var place = prompt("Place of event:")
+			if(place != null || place == ""){
+					document.write("<br>" + "Place of event: " + place)
+			}
+		}
+
+	</script>
+
+
+
+
+</body>
+</html>
