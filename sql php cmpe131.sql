@@ -2,11 +2,11 @@
 $servername = "localhost";
 $username = "root";
 $password = "micemice123";
-$dbname = "myDB";
+$dbname = "Local instance MySQL57";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
+if ($conn->connect_error)
+{
     die("Connection failed: " . $conn->connect_error);
 } 
 
@@ -20,9 +20,11 @@ create table userinfo
     create_time timestamp
 );
 
-if ($conn->query($sql) === TRUE) {
+if ($conn->query($sql) === TRUE) 
+{
     echo "Table 'userinfo' created successfully";
-} else {
+} else 
+{
     echo "Error creating table: " . $conn->error;
 }
 
