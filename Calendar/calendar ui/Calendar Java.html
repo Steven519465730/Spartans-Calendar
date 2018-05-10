@@ -66,10 +66,10 @@ function displayCalendar(){
     // if counter is current day.
     // highlight current day using the CSS defined in header.
     if (counter == day){
-        htmlContent +="<td class='dayNow'  onMouseOver='this.style.background=\"#FF0000\"; this.style.color=\"#FFFFFF\"' "+
-        "onMouseOut='this.style.background=\"#FFFFFF\"; this.style.color=\"#00FF00\"'>"+counter+"</td>";
+        htmlContent +="<td class='dayNow'  onMouseOver='this.style.background=\"#34495e\"; this.style.color=\"white\"' "+
+        "onMouseOut='this.style.background=\"#34495e\"; this.style.color=\"white\"'>"+counter+"</td>";
     }else{
-        htmlContent +="<td class='monthNow' onMouseOver='this.style.background=\"#FF0000\"'"+
+        htmlContent +="<td class='monthNow' onMouseOver='this.style.background=\"#34495e\"'"+
         " onMouseOut='this.style.background=\"#FFFFFF\"'>"+counter+"</td>";    
  
     }
@@ -110,22 +110,30 @@ function displayCalendar(){
 }
 .dayNow{
  border: 2px solid black;
- color: red;
+ color: #34495e;
  text-align: center;
+ font-family: helvetica;
 }
 .calendar td{
  htmlContent: 2px;
- width: 40px;
+ width: 180px;
 }
 .monthNow th{
- background-color: white;
- color: black;
+ background-color: #3c6382;
+ color: white;
  text-align: center;
+ font-family: helvetica;
+ font-size: 80px;
+ font-weight: lighter;
+
 }
 .dayNames{
- background: red;
- color: black;
+ background: #60a3bc;
+ color: white;
  text-align: center;
+ font-family: helvetica;
+ font-size: 25px;
+ font-weight: lighter;
 }
  
 </style> 
