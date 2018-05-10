@@ -1,0 +1,17 @@
+{
+  "name": "funtions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "events.js",
+  "scripts": {
+    "test": "mocha **/events.tests.js"
+  },
+  "author": "Obaid Chintamen",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^4.7.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.0"
+  }
+}
